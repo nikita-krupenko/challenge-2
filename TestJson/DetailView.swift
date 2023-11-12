@@ -38,7 +38,7 @@ struct DetailView: View {
                 }
                 ToolbarItem(placement: .principal) {
                     HStack{
-                        Text("Painted by:")
+                        Text("Painted by: ")
                         Text(author.name)
                     }
                 }
@@ -46,6 +46,7 @@ struct DetailView: View {
         }
     }
 }
+
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
