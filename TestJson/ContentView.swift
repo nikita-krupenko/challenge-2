@@ -31,7 +31,7 @@ struct ContentView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .principal) {
-                    TextField("Search by artist or painting", text: $searchText)
+                    TextField("Search by artist or painting" , text: $searchText)
                         .padding(8)
                         .background(Color(.lightGray))
                         .cornerRadius(10)
